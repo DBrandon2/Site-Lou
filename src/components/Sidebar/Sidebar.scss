@@ -1,0 +1,117 @@
+@import "./../../assets/styles/mixin.scss";
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  width: 2.8rem;
+  height: 2.5rem;
+
+
+
+  @include breakpoint(sm) {
+    width: 3rem;
+    height: 2.7rem;
+  }
+
+  @include breakpoint(md) {
+    width: 4rem;
+    height: 3rem;
+  }
+
+  @include breakpoint(lg) {
+    width: 4.5rem;
+    height: 3.5rem;
+  }
+
+  @include breakpoint(xl) {
+    width: 5rem;
+    height: 4rem;
+  }
+
+  @include breakpoint(xxl) {
+    width: 6rem;
+    height: 5rem;
+  }
+
+
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ffffff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #ffffff;
+  
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+height: 24px;
+width: 24px;
+  
+}
+
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(4, 4, 4, 0.5);
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  top: 0; 
+  height: 100%;
+  
+  
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: var(--primary);
+  line-height: 5rem;
+  padding-top: 15%;
+  font-size: 2.8rem;
+  // margin-right: -9%;
+  width: 115%;
+}
+
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  transition: transform 0.2s;
+  text-shadow: 0px 4px 4px rgba(4, 4, 4, 0.8);
+}
+
+.bm-item:hover {
+  transform: translateX(5px);
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

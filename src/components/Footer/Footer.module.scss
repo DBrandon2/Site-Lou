@@ -1,0 +1,102 @@
+@import "./../../assets/styles/mixin.scss";
+
+.maindiv{
+    max-width: 100%;
+    height: auto;
+    background-color: #6F3823;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+
+    .divA{
+        margin-right: 1rem;
+        span{
+            font-size: 1.3rem;
+            font-weight: 500;
+            letter-spacing: 1.8px;
+
+            @include breakpoint(xl) {
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        }
+        li{
+            font-size: 0.6rem;
+            font-weight: 200;
+            letter-spacing: 1px;
+            line-height: 1.3rem;
+
+            @include breakpoint(xl) {
+                font-size: 1.2rem;
+                letter-spacing: 1.4px;
+                line-height: 2rem;
+            }
+        }
+    }
+    .divB{
+
+        .div1{
+            margin-bottom: 2rem;
+            span{
+                font-size: 1.3rem;
+                font-weight: 500;
+                letter-spacing: 1.4px;
+                border-bottom: 1px solid white;
+                padding: 1rem;
+
+                @include breakpoint(xl) {
+                 font-size: 2rem;
+                }
+            }
+        }
+        .div2{
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-around;
+            i{
+            font-size: 2rem;
+
+            @include breakpoint(xl) {
+                font-size: 3rem;
+               }
+            }
+        }
+        .div3{
+            
+            p{
+                font-family: 'Imperial Script', cursive;
+                text-align: center;
+                letter-spacing: 2.4px;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 1.5rem;
+
+                @include breakpoint(xl) {
+                    font-size: 3rem;
+                   }
+            }
+        }
+      
+
+
+    }
+
+}
+
+.seconddiv{
+    max-width: 100%;
+    background-color: #4A1D0B;
+    text-align: center;
+
+    p{
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+        @include breakpoint(xl) {
+            font-size: 0.9rem;
+           }
+    }
+}
