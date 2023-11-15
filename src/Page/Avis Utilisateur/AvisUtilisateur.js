@@ -4,7 +4,7 @@ function AvisUtilisateur() {
   return (
     <div className='maindiv'>
 
-      <h1>Les différent avis de nos clients :</h1>
+      <h1>Les différent avis des cavaliers :</h1>
 
       <div className='AvisContainer'>
         <div className='InfoDiv'>

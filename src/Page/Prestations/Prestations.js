@@ -44,9 +44,9 @@ function Prestations() {
                                 
 
                                 <p>Patience, remise en question, gestion des émotions… Ces valeurs sont nécessaires pour que le
-                                  couple cheval/cavalier fonctionne et c&#39;est cette équitation que je transmet à mes cavaliers.
+                                  couple cheval/cavalier fonctionne et c&#39;est cette équitation que je transmets à mes cavaliers.
                                   Apprendre à ressentir, analyser, comprendre son cheval que ce soit monté ou au sol pour pouvoir
-                                  communiquer et évoluer dans les meilleures conditions possibles avec des bases saines.
+                                  communiquer et évoluer dans les meilleures conditions possibles.
                                 </p>
                                 <p>Que ce soit pour du loisir ou du perfectionnement, je m&#39;adapte à vos envies et objectifs</p>
                                 <p>Chevaux d’instruction disponibles pour du Dressage (à partir du niveau galop 3) et de l’Equifeel
@@ -84,7 +84,7 @@ function Prestations() {
                     <div class="back">
                         <div class="inner">
                             <div class="description">
-                                <p>Je propose le travail de vos chevaux / poneys sur le plat et au sol (longues rênes, longes,
+                                <p>Je propose le travail de vos chevaux / poneys sur le plat et au sol (longues rênes, longe,
                                   désensibilisation, travail à pied)
                                 </p>
                                 <p>Pourquoi faire ?</p>
@@ -129,7 +129,7 @@ function Prestations() {
                     <div class="back">
                         <div class="inner">
                             <div class="description">
-                                <p>Les Galops sont des examens fédéraux, qui vous donneront accès à un diplôme attestant de
+                                <p>Les Galops sont des examens fédéraux qui vous donneront accès à un diplôme attestant de
                                   votre niveau de compétences de cavalier licencié. Chaque étape évalue vos connaissances et
                                   votre pratique. Ils sont composés d’une épreuve montée et d’une épreuve théorique.
                                 </p>
@@ -219,7 +219,7 @@ function Prestations() {
                                 </p>
                                 <p>Je vous propose :</p>
                                 <ul>
-                                  <li>- une surveillance en pature, gestion de la nourriture &amp; des soins</li>
+                                  <li>- une surveillance en pature, gestion de l'alimentation &amp; des soins</li>
                                   <li>- d’assurer les sorties, monte, longe, liberté</li>
                                 </ul>
                                 <p>Envoi de nouvelles quotidiennes, partez serein, vos chevaux seront entre de bonnes mains</p>
@@ -255,7 +255,7 @@ function Prestations() {
                             <div class="description">
                                 <p>Achat :</p>
                                 <ul>
-                                  <li>- défiinir vos critères</li>
+                                  <li>- définir vos critères</li>
                                   <li>- trouver un cheval adapté à vos envies &amp; objectifs</li>
                                   <li>- accompagnement lors des essais</li>
                                 </ul>

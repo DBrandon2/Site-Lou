@@ -4,11 +4,14 @@ import styles from "./Footer.module.scss"
 function Footer() {
   return (
     <>
+    <div className={`${styles.Secteurdiv}`}>
+        <p>Disponibilité dans les secteurs de Lens, Béthune, Lille et Arras</p>
+    </div>
     <div className={`${styles.maindiv}`}>
         <div className={`${styles.divA}`}>
             <ul>
                 <span>Services</span>
-                <Link to="/Prestations"><li>Cours particuliers</li></Link>
+                <Link to="/Prestations"><li>Enseignement</li></Link>
                 <Link to="/Prestations"><li>Travail du cheval</li></Link>
                 <Link to="/Prestations"><li>Passage de galops</li></Link>
                 <Link to="/Prestations"><li>Coaching concours</li></Link>
