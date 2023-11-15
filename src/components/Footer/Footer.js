@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
     <div className={`${styles.Secteurdiv}`}>
-        <p>Disponibilité dans les secteurs de Lens, Béthune, Lille et Arras</p>
+        <p>Secteurs : Lens, Bethune, Arras, Lille, Armentières…</p>
     </div>
     <div className={`${styles.maindiv}`}>
         <div className={`${styles.divA}`}>
